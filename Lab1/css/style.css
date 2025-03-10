@@ -1,0 +1,69 @@
+/* Общие стили для всех страниц */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc0cb; /* Розовый фон */
+    color: #333;
+}
+
+/* Подключение шрифтов Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Стили для заголовков */
+h1, h2 {
+    text-align: center;
+    color: #6a1b9a;
+    font-weight: 600;
+}
+
+/* Меню навигации */
+nav {
+    background-color: #6a1b9a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+nav a:hover {
+    background-color: #4a148c;
+    border-radius: 5px;
+}
+
+/* Контейнер для основного контента */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+/* Стили для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #6a1b9a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
